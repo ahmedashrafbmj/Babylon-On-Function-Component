@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import { FreeCamera, Vector3, HemisphericLight, MeshBuilder } from "@babylonjs/core";
+import SceneComponent from "./Secene2"; // uses above component in same directory
+import Secene3 from "./Secene3"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+function App(){
+  return(
+  <>
+   <SceneComponent/>
+  </>
+  )
 }
-
-export default App;
+export default App

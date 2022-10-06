@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babylonjs/core": "^5.26.1",
+    "@babylonjs/gui": "^5.26.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "babylonjs-hook": "^0.1.1",
     "react": "^18.2.0",
+    "react-babylonjs": "^3.1.11",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
